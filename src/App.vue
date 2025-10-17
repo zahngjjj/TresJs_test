@@ -11,8 +11,10 @@
     </div> -->
     
     <!-- 渲染对应组件 -->
-    <EarthDemo v-if="currentDemo === 'earth'" />
-    <ThreeScene v-else />
+    <!-- <EarthDemo v-if="currentDemo === 'earth'" />
+    <ThreeScene v-else /> -->
+     <!-- <Test2></Test2> -->
+    <Test3></Test3>
   </div>
 </template>
 
@@ -20,6 +22,10 @@
 import { ref } from 'vue'
 import ThreeScene from './components/ThreeScene.vue'
 import EarthDemo from './components/EarthDemo.vue'
+import Test from './test.vue'
+import Test2 from './test2.vue'
+import Test3 from './test3.vue'
+// import Test4 from './test4.vue'
 
 const currentDemo = ref('earth')
 </script>
@@ -27,7 +33,7 @@ const currentDemo = ref('earth')
 <style>
 #app {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
   position: relative;
