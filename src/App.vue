@@ -2,7 +2,6 @@
   <div id="app">
     <!-- 导航菜单 -->
     <div class="navigation">
-      <h2>测试项目</h2>
       <div class="nav-buttons">
         <!-- <button @click="currentDemo = 'earth'" :class="{ active: currentDemo === 'earth' }">
           🌍 地球Demo

@@ -623,8 +623,7 @@ h1 {
 }
 
 .element-controls {
-  margin-top: 20px;
-  padding-top: 20px;
+  margin-top: 10px;
   border-top: 2px solid #ecf0f1;
 }
 
@@ -750,8 +749,7 @@ h1 {
 
 /* 元素控制样式 */
 .element-controls {
-  margin-top: 20px;
-  padding-top: 20px;
+  padding-top: 10px;
   border-top: 1px solid #ddd;
 }
 
