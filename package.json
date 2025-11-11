@@ -13,7 +13,8 @@
     "@tresjs/core": "^4.0.0",
     "@tresjs/nuxt": "^4.0.0",
     "three": "^0.160.1",
-    "vue": "^3.4.0"
+    "vue": "^3.4.0",
+    "vue-router": "^4.6.3"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.0",
