@@ -14,9 +14,18 @@
         <button @click="router.push('/dxf-3d')" :class="{ active: $route.path === '/dxf-3d' }">
           🔧 DXF 3D渲染
         </button>
-        <!-- 新增 Shader Demo 入口 -->
-        <button @click="router.push('/shader-demo')" :class="{ active: $route.path === '/shader-demo' }">
-          ✨ Shader Demo
+          <button @click="router.push('/shader-demo')" :class="{ active: $route.path === '/shader-demo' }">
+            ✨ GLSL Shader Demo
+          </button>
+
+          <button @click="go('/toon-shader')" :class="{ active: $route.path === '/toon-shader' }">
+            ✨ Toon Shader
+          </button>
+          <button @click="go('/canvas-vs-svg')" :class="{ active: $route.path === '/canvas-vs-svg' }">
+            🟧 Canvas vs SVG
+          </button>
+          <button @click="go('/maptalks-demo')" :class="{ active: $route.path === '/maptalks-demo' }">
+          🗺️ Maptalks 3D
         </button>
       </div>
     </div>
@@ -35,6 +44,7 @@ import { useRouter } from 'vue-router'
 import Breadcrumb from '@/components/Breadcrumb.vue'
 
 const router = useRouter()
+const go = (path) => router.push(path)
 </script>
 
 <style>

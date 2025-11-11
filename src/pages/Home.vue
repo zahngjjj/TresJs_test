@@ -9,6 +9,10 @@
         <router-link class="nav-btn" to="/svg-large">⚡ 超大SVG优化</router-link>
         <router-link class="nav-btn" to="/dxf-canvas">🎨 DXF Canvas渲染</router-link>
         <router-link class="nav-btn" to="/dxf-3d">🔧 DXF 3D渲染</router-link>
+        <router-link class="nav-btn" to="/ShaderDemo">🖌️ GLSL  shader demo</router-link>
+        <router-link class="nav-btn" to="/toon-shader">🖌️ Toon Shader</router-link>
+        <router-link class="nav-btn" to="/canvas-vs-svg">🟧Canvas vs SVG</router-link>
+        <router-link class="nav-btn" to="/maptalks-demo">🟧  🗺️ Maptalks 3D</router-link>
       </div>
     </section>
 

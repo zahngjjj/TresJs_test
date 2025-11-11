@@ -5,7 +5,9 @@ import SvgLargePage from '../pages/SvgLargePage.vue'
 import DxfCanvasPage from '../pages/DxfCanvasPage.vue'
 import Dxf3DPage from '../pages/Dxf3DPage.vue'
 import ShaderDemo from '../pages/ShaderDemo.vue'
-
+import ToonShaderDemo from '../pages/ToonShaderDemo.vue'
+import CanvasVsSvgDemo from '../pages/CanvasVsSvgDemo.vue'
+import MaptalksDemo from '../pages/MaptalksDemo.vue'
 const routes = [
   { path: '/', name: 'home', component: Home, meta: { title: '首页', breadcrumb: '首页' } },
   { path: '/svg-dom', name: 'svg-dom', component: SvgDomPage, meta: { title: 'SVG DOM操作', breadcrumb: 'SVG DOM操作' } },
@@ -13,6 +15,9 @@ const routes = [
   { path: '/dxf-canvas', name: 'dxf-canvas', component: DxfCanvasPage, meta: { title: 'DXF Canvas渲染', breadcrumb: 'DXF Canvas渲染' } },
   { path: '/dxf-3d', name: 'dxf-3d', component: Dxf3DPage, meta: { title: 'DXF 3D渲染', breadcrumb: 'DXF 3D渲染' } },
   { path: '/shader-demo', name: 'shader-demo', component: ShaderDemo, meta: { title: 'Shader Demo', breadcrumb: 'Shader Demo' } },
+  { path: '/toon-shader', name: 'ToonShaderDemo', component: ToonShaderDemo, meta: { title: 'Toon Shader', breadcrumb: 'Toon Shader' } },
+  { path: '/canvas-vs-svg', name: 'CanvasVsSvgDemo', component: CanvasVsSvgDemo, meta: { title: 'Canvas vs SVG', breadcrumb: 'Canvas vs SVG' } },
+  { path: '/maptalks-demo', name: 'maptalks-demo', component: MaptalksDemo, meta: { title: 'Maptalks 3D', breadcrumb: 'Maptalks 3D' } }
 ]
 
 const router = createRouter({
