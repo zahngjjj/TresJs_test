@@ -2,7 +2,6 @@
   <div id="app">
     <div class="navigation">
       <div class="nav-buttons">
-        <!-- 使用按钮 + 路由跳转，复用现有按钮样式 -->
         <button @click="router.push('/svg-dom')" :class="{ active: $route.path === '/svg-dom' }">
           📐 SVG DOM操作
         </button>
@@ -19,6 +18,9 @@
     </div>
 
     <div class="demo-container">
+      <!-- 注入面包屑 -->
+      <Breadcrumb />
+      <!-- 页面内容 -->
       <router-view />
     </div>
   </div>
@@ -26,6 +28,8 @@
 
 <script setup>
 import { useRouter } from 'vue-router'
+import Breadcrumb from '@/components/Breadcrumb.vue'
+
 const router = useRouter()
 </script>
 
@@ -152,3 +156,4 @@ const router = useRouter()
   }
 }
 </style>
+import Breadcrumb from './components/Breadcrumb.vue'
